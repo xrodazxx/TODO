@@ -1,4 +1,4 @@
-package TODO
+package tod
 
 type User struct {
 	Id       int    `json:"-"`
