@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/xrodazxx/TODO/pkg/handler"
-	"github.com/xrodazxx/TODO/pkg/tod"
+	"github.com/xrodazxx/TODO/tod"
 )
 
 func main() {
