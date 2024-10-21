@@ -2,7 +2,7 @@ module TODO
 
 go 1.23.2
 
-require github.com/xrodazxx/TODO v0.0.0-20241019103632-1ff309ec81f7
+require github.com/xrodazxx/TODO v0.0.0-20241021080023-3efa6b508bc4
 
 require (
 	github.com/bytedance/sonic v1.12.3 // indirect
