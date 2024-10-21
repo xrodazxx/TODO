@@ -1,19 +1,23 @@
 package repository
 
-import "github.com/xrodazxx/TODO/pkg/repository"
-
 type Authorization interface {
+	// Добавьте методы для интерфейса
 }
+
 type TodoList interface {
+	// Добавьте методы для интерфейса
 }
+
 type TodoItem interface {
+	// Добавьте методы для интерфейса
 }
+
 type Repository struct {
 	Authorization
 	TodoList
 	TodoItem
 }
 
-func NewRepository(repos repository.Repository) *Repository {
+func NewRepository() *Repository {
 	return &Repository{}
 }
